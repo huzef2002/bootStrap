@@ -24,6 +24,7 @@
                         <li> <a class=" text-white btn" href="http://127.0.0.1:5500/templets/foodweb.html"> Promo</a></li>
                         <li> <a class=" text-white btn" href="http://127.0.0.1:5500/templets/foodweb.html">About</a></li>
                         <li> <a class=" text-white btn" href="http://127.0.0.1:5500/templets/foodweb.html">Contact</a></li>
+                        <li> <button class=" text-white btn " type="button"  data-toggle="collapse" data-target="#IdForm" aria-expanded="false" aria-controls="IdForm">Login</button></li>
                     </ul>
                 </div>
             </div>
@@ -34,6 +35,30 @@
                 </div>
             </div>
         </div>
+
+         <!-- login form  -->
+        <div class="boxlog container  collapse" id="IdForm">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Login</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
    </div>
 
    <div class="box2 container-fluid">
@@ -41,12 +66,11 @@
             <div class="col-2">
 
             </div>
-            <div class="col-6  text-white">
+            <div class="col-4  text-white">
                 <div>
-                    <h1 class=" p-2">Title Here</h1>
-                    <p>lorem ipsum dolor sit amet consectur <br>
-                    adipscing elit vivamos lacinia odia vitae <br>
-                    vestibulum vestibulum</p>
+                    <h1 class=" p-2">Ice cream
+                    </h1>
+                    <p>Indulge in the creamy delight of our handcrafted ice creams, made with the finest ingredients. From classic vanilla to exotic flavors, every scoop is a journey of pure bliss. Satisfy your sweet cravings with a treat that’s as delightful as it is refreshing!</p>
 
                     <button class="btn text-white rounded-5 px-5 mt-3">
                         ORDER NOW 
@@ -107,12 +131,10 @@
                     
                 </div>
             </div>
-            <div class="col-6  text-white">
+            <div class="col-4  text-white">
                 <div>
-                    <h1 class=" p-2">Title Here</h1>
-                    <p>lorem ipsum dolor sit amet consectur <br>
-                    adipscing elit vivamos lacinia odia vitae <br>
-                    vestibulum vestibulum</p>
+                    <h1 class=" p-2">French fries</h1>
+                    <p>"Crispy on the outside, tender on the inside—our French fries are the perfect golden treat. Seasoned to perfection and served hot, they're the ultimate comfort snack. Pair them with your favorite dip and enjoy a classic that never goes out of style!"</p>
 
                     <button class="btn text-white rounded-5 px-5 mt-3">
                         ORDER NOW 
@@ -288,9 +310,17 @@
             </div>
         </div>
     </div>
+
+   
     <script src="bootstrap.min.js"></script>
 </body>
 <style>
+
+.boxlog{
+        margin-top: 50px;
+        height: auto;
+        position: absolute;
+    }
     .span2{
         background-color: #14213d;
     }
