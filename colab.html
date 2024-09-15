@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn btn-info mt-2" data-bs-toggle="collapse" 
+        data-bs-target="#demo">
+            clicke me
+        </button>
+        <div class="collapse" id="demo">
+            read my containe it is use to click function in boot strap using toggle button 
+        </div>
+    </div>
+
+    <div class="container">
+        <a class=" mt-2" data-bs-toggle="collapse" 
+        href="#memo">
+            clicke me
+        </a>
+        <div class="collapse" id="memo">
+            read my containe it is use to click function in boot strap using toggle button 
+        </div>
+    </div>
+
+    <div class="container">
+        <button class="btn btn-info mt-2 " data-bs-toggle="collapse" 
+        data-bs-target="#semo">
+            clicke me
+        </button>
+        <div class="collapse show" id="semo">
+            read my containe it is use to click function in boot strap using toggle button 
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="accorfian">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapse1" class="btn" data-bs-toggle="collapse">accordian 1</a>
+                </div>
+                <div id="collapse1" class="collapse " data-bs-parent="#accorfian">
+                    <div class="card-body">
+                        <div id="collapse1" class="collapse ">
+                            this fonction use to show multiple lines and we clicke on another 
+                            button than fist conctin is hide
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapse2" class="btn collapsed" data-bs-toggle="collapse">accordian 2</a>
+                </div>
+                <div id="collapse2" class="collapse" data-bs-parent="#accorfian">
+                    <div class="card-body">
+                        <div id="collapse2" class="collapse">
+                            this fonction use to show multiple lines and we clicke on another 
+                            button than fist conctin is hide
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapse3" class="btn collapsed" data-bs-toggle="collapse">accordian 3</a>
+                </div>
+                <div id="collapse3" class="collapse" data-bs-parent="#accorfian">
+                    <div class="card-body">
+                        <div id="collapse3" class="collapse">
+                            this fonction use to show multiple lines and we clicke on another 
+                            button than fist conctin is hide
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
