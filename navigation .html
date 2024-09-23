@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+
+        
+
+
+        <!-- navbar-expand-sm class is used to making a navebar with difrent divices such as 
+        sm, md, lg, xl, xxl  -->
+        <!-- navbar-dark use karne par text color light ho jainga  -->
+        <nav class="navbar-expand-sm bg-success navbar-dark mt-4">
+            <div class="container-fluid">
+                
+                <ul class="navbar-nav gap-5">
+                    <a href="#" class="navbar-brand">123 wla</a>
+                    <li class="nav-item">
+                        <!-- add active class  -->
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar-expand-sm bg-primary mt-3 ">
+            <!-- remove container-fluid to add justify-content-center -->
+                <ul class="navbar-nav justify-content-center navbar-dark gap-5">
+                    <li class="nav-item">
+                        <!-- add disabled class -->
+                        <a href="#" class="nav-link disabled">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar-expand-sm bg-info mt-3">
+            <div class="container-fluid">
+                <ul class="navbar-nav gap-5">
+                    <a href="#" class="navbar-brand">food wala</a><a href=""></a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
+                   </li>
+                </ul>
+            </div>
+         </nav>
+
+        <nav class="navbar bg-info mt-3 col-3">
+            <div class="container-fluid">
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <nav class=" navbar-expand-sm bg-dark mt-5 navbar-dark">
+            <a href="#" class="navbar-brand">
+                <img src="icon.jpg" alt="icon logo">
+            </a>
+            <button type="button" class="navbar-toggler " data-bs-toggle="collapse"
+            data-bs-target="#myList">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="myList">
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">login</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pravicy</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
